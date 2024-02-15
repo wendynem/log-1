@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+
+    <title>Registration</title>
+</head>
+
+<body>
+    <form method="get">
+        <header>
+            <h1> Registration</h1>
+        </header>
+
+        <section>
+            <div id="container">
+                <div class="input">
+                    <label for="name">Name(s):</label> 
+                    <input type="text" id="name" name="name" required> 
+
+                    <label for="surname">Surname:</label> 
+                    <input type="text" id="surname" name="surname" required> 
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Select a gender</option>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Non-Binary">Non-Binary</option>
+                    </select>
+
+                    <label for="number">Cell Number:</label> 
+                    <input type="text" id="number" name="number" required>
+
+                    <label for="age">Age:</label> 
+                    <input type="number" id="age" name="age" required>
+
+                    <label for="address1">Address line 1:</label> 
+                    <input type="text" id="address1" name="address1" required> 
+
+                    <label for="address2">Address line 2:</label> 
+                    <input type="text" id="address2" name="address2" required> 
+
+                    <label for="resides-in-gauteng">Click "Yes" if you reside in Gauteng:</label>
+                    <input type="checkbox" id="resides-in-gauteng" name="resides-in-gauteng" value="yes">
+
+                    <label for="city">City:</label> 
+                    <input type="text" id="city" name="city" required> 
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required> 
+           
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </section>
+    </form>
+</body>
+</html>
